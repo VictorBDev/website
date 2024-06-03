@@ -1,0 +1,27 @@
+/* src/app/components/servicios/servicios.component.css */
+.container {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px;
+}
+
+.card {
+  background-color: #333;
+  border: none;
+}
+
+.card-body {
+  color: white;
+}
+
+.icon {
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: #aaa;
+}
