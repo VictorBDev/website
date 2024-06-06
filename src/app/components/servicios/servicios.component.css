@@ -1,27 +1,16 @@
-/* src/app/components/servicios/servicios.component.css */
-.container {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 40px;
-}
-
 .card {
-  background-color: #333;
-  border: none;
+  background-color: #2a2a2a;
+  color: #ffffff;
 }
 
-.card-body {
-  color: white;
+.card-body .icon i {
+  color: #ff4136; /* Color rojo para los íconos */
 }
 
-.icon {
-  color: red;
+.card-title {
+  font-weight: bold;
 }
 
-h2 {
-  color: red;
-}
-
-p {
-  color: #aaa;
+.card-text {
+  font-size: 14px;
 }

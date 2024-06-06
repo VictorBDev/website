@@ -1,11 +1,17 @@
 // src/app/services/servicios.service.ts
 import { Injectable } from '@angular/core';
 
+interface Servicio {
+  icon: string;
+  title: string;
+  description: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class ServiciosService {
-  private servicios = [
+  private servicios: Servicio[] = [
     {
       icon: 'briefcase', // Puedes usar iconos de FontAwesome u otro conjunto de iconos
       title: 'Ventas',
@@ -30,7 +36,7 @@ export class ServiciosService {
 
   constructor() { }
 
-  getServicios() {
+  getServicios(): Servicio[] {
     return this.servicios;
   }
 }
